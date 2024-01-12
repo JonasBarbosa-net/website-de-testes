@@ -1,0 +1,96 @@
+.letra_h, .letra_u, .letra_n, .letra_t, .letra_e, .letra_r, .caractere {
+    opacity: 0;
+}
+
+.letra_h {
+    animation: escrever1 0.10s forwards steps(1);
+}
+
+.letra_u {
+    animation: escrever2 0.20s forwards steps(1);
+}
+
+.letra_n {
+    animation: escrever3 0.35s forwards steps(1);
+}
+
+.letra_t {
+    animation: escrever4 0.60s forwards steps(1);
+}
+
+.letra_e {
+    animation: escrever5 0.75s forwards steps(1);
+}
+
+.letra_r {
+    animation: escrever6 0.80s forwards steps(1);
+}
+
+.caractere {
+    animation: agulha 0.89s forwards steps(11), 
+    oscilar 1.5s infinite step-start;
+    position: relative;
+    right: 215px;
+    color: rgb(107, 166, 255);
+}
+
+
+
+/*---- CONFIGURAÇÃO DA AGULHA DE ESCREVER ----*/
+@keyframes agulha {
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes oscilar {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*---- EXIBIÇÃO DAS LETRAS ----*/
+@keyframes escrever1 {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes escrever2 {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes escrever3 {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes escrever4 {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes escrever5 {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes escrever6 {
+    100% {
+        opacity: 1;
+    }
+}
