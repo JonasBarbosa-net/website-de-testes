@@ -42,21 +42,16 @@
         right: 0;
     }
 }
-
 @keyframes oscilar {
-    0% {
-        opacity: 0;
-    }
-
     50% {
         opacity: 1;
     }
-
 
     100% {
         opacity: 0;
     }
 }
+
 
 /*---- EXIBIÇÃO DAS LETRAS ----*/
 @keyframes escrever1 {
@@ -64,31 +59,26 @@
         opacity: 1;
     }
 }
-
 @keyframes escrever2 {
     100% {
         opacity: 1;
     }
 }
-
 @keyframes escrever3 {
     100% {
         opacity: 1;
     }
 }
-
 @keyframes escrever4 {
     100% {
         opacity: 1;
     }
 }
-
 @keyframes escrever5 {
     100% {
         opacity: 1;
     }
 }
-
 @keyframes escrever6 {
     100% {
         opacity: 1;
